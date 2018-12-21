@@ -28,7 +28,7 @@ brew install git
   
   > 安装后 运行命令 `git` 查看
   
- :arrow_up: <a href="#TOC">回到目录</a> 
+ :arrow_up: <a href="#toc">回到目录</a> 
   
 ###  创建版本库
 - 创建新的版本库
@@ -47,7 +47,7 @@ git clone ssh://user@xx.com/xxx.git
 
 ```
 
-:arrow_up: <a href="#TOC">回到目录</a>
+:arrow_up: <a href="#toc">回到目录</a>
 
 ### 状态与添加提交
 
@@ -84,7 +84,7 @@ git diff HEAD --<file>
 
 git diff
 ```
-:arrow_up: <a href="#TOC">回到目录</a>
+:arrow_up: <a href="#toc">回到目录</a>
 
 ### 提交记录
 
@@ -105,7 +105,7 @@ git log -p <file>
 ```shell
 git blame <file>
 ```
-:arrow_up: <a href="#TOC">回到目录</a>
+:arrow_up: <a href="#toc">回到目录</a>
 
 ### 版本回退
 
@@ -148,7 +148,7 @@ git checkout -- <file>
 ```shell
 git revert <commit id>
 ```
-:arrow_up: <a href="#TOC">回到目录</a>
+:arrow_up: <a href="#toc">回到目录</a>
 
 ### 更新与发布
 
@@ -166,7 +166,7 @@ git push <remote> <branch>
 
 > eg. `git push origin master`
 
-:arrow_up: <a href="#TOC">回到目录</a>
+:arrow_up: <a href="#toc">回到目录</a>
 
 ### 分支与标记
 
@@ -206,5 +206,5 @@ git tag
 ```shell
 git tag -d <tag_name>
 ```
- :arrow_up: <a href="#TOC">回到目录</a>
+ :arrow_up: <a href="#toc">回到目录</a>
 
