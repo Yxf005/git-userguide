@@ -1,5 +1,8 @@
 # git-guide
 
+<a href="#安装">安装</a>
+
+
 ### 安装
 ---
 - linux
