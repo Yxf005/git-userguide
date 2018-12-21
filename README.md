@@ -5,7 +5,8 @@
 - <a href="#状态与添加提交">状态与添加提交</a>
 - <a href="#提交记录">提交记录</a>
 - <a href="#版本回退">版本回退</a>
-
+- <a href="#更新与发布">更新与发布</a>
+- <a href="#分支与标记">分支与标记</a>
 
 ### 安装
 ---
@@ -140,5 +141,58 @@ git checkout -- <file>
 ```shell
 git revert <commit id>
 ```
+### 更新与发布
 
+- 拉取最新修改到本地版本库
+
+```shell
+git pull <remote> <branch>
+```
+
+- 把本地提交内容推送到远程库
+
+```shell
+git push <remote> <branch>
+```
+
+> eg. `git push origin master`
+
+### 分支与标记
+
+- 列出所有的分支
+
+```shell
+git branch -av
+```
+
+- 将工作区切换到某个分支
+
+```shell
+git checkout <branch>
+```
+
+- 切换新分支
+
+```shell
+git checkout -b <new_branch>
+```
+
+- 创建标记
+
+```shell
+git tag <tag_name>
+```
+> 命令 `git tag <tagname>` 用于新建一个标签，默认为 HEAD，也可以指定一个 commit id
+
+- 查看所有的标记
+
+```shell
+git tag
+```
+
+-删除标记
+
+```shell
+git tag -d <tag_name>
+```
 
